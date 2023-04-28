@@ -1,6 +1,6 @@
 import icons from './icons';
 
-const { MdOutlineLibraryMusic } = icons;
+const { MdOutlineLibraryMusic, HiOutlineChartPie, TbChartArcs, MdOutlineFeed } = icons;
 
 export const siderbarMenu = [
     {
@@ -13,18 +13,18 @@ export const siderbarMenu = [
         path: '',
         text: 'Khám phá',
         end: true,
-        icons: <MdOutlineLibraryMusic size={25}/>
+        icons: <TbChartArcs size={25}/>
     },
 
     {
         path: 'zing-chart',
         text: '#zingchart',
-        icons: <MdOutlineLibraryMusic size={25}/>
+        icons: <HiOutlineChartPie size={25}/>
     },
 
     {
         path: 'follow',
         text: 'Theo dõi',
-        icons: <MdOutlineLibraryMusic size={25}/>
+        icons: <MdOutlineFeed size={25}/>
     }
 ]
